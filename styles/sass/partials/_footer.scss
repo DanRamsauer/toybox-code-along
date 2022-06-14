@@ -1,0 +1,32 @@
+footer {
+    background-color: $primary;
+    color: $solidWhite;
+    padding: 75px;
+
+        .footerFlexContainer{
+            display: flex;
+            justify-content: space-between;
+        }
+}
+.footerLogo{
+    width: 100%;
+}
+.footerLogo h4{
+    color: $solidWhite;
+}
+.footerNav{
+    width: 45%;
+        
+    nav{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+        i{
+            margin: 10px;
+        }
+}
