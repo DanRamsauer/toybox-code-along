@@ -18,3 +18,31 @@ header .wrapper{
 .textContainer{
     width: 48%;
 }
+
+// Contact Page
+.contactHeader{
+    background-color: $quaternary;
+    padding-top: 120px;
+    
+    h3{
+        font-size: 2.3rem;
+    }
+    h5{
+        font-size: 0.9rem;
+    }
+    &::after{
+        content: '';
+        width: 100%;
+        height: 100px;
+        background-image: url(../assets/wave.svg);
+        background-size: 100% 150px;
+        background-color: $quaternary;
+        display: block;
+    }
+}
+
+.contactHeader .wrapper {
+    flex-direction: column;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}

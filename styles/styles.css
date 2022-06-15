@@ -495,6 +495,35 @@ header .wrapper {
   width: 48%;
 }
 
+.contactHeader {
+  background-color: #fff5f5;
+  padding-top: 120px;
+}
+.contactHeader h3 {
+  font-size: 2.3rem;
+}
+.contactHeader h5 {
+  font-size: 0.9rem;
+}
+.contactHeader::after {
+  content: "";
+  width: 100%;
+  height: 100px;
+  background-image: url(../assets/wave.svg);
+  background-size: 100% 150px;
+  background-color: #fff5f5;
+  display: block;
+}
+
+.contactHeader .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
 .categories {
   margin-top: 50px;
 }
